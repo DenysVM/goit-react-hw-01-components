@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction_history {
+  width: 500px;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+thead {
+  background-color: #0073e6;
+  color: white;
+  text-transform: uppercase;
+}
+
+th {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.row_even {
+  background-color: white;
+}
+
+.row_odd {
+  background-color: #f5f5f5;
+}
