@@ -1,16 +1,11 @@
+import { Profile } from "./Profile/Profile";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <h1>1 - Профіль соціальної мережі</h1>
+      <Profile/>
+      <h1>2 - Секція статистики</h1>
     </div>
-  );
+     );
 };
