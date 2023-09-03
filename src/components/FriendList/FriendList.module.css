@@ -7,32 +7,3 @@
   padding: 0;
   margin: 0 auto;
 }
-
-.item {
-  width: 200px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-}
-
-.status {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 8px;
-}
-
-.avatar {
-  border-radius: 10%;
-  border: 2px solid #ccc;
-}
-
-.name {
-  font-size: 16px;
-  font-weight: bold;
-  margin-left: 10px;
-}
